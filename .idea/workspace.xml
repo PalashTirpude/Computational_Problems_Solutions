@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe5a0e-6569-4042-a2c6-d9a43ffbcde0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/alphabet/CheckAlphabetIsVowel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/javaintroduction/ArithmeticOperators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/GreatestNumberInSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/NumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/swaptwonumbers/SwapTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/alphabettest/AlphabetCheckVowelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/arithmaticoperators/ArithmeticOperatoresTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/GreatesNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/NumberOfDigitsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/swaptwonumbers/SwapTwoNumbersTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="adfe5a0e-6569-4042-a2c6-d9a43ffbcde0" name="Changes" comment="Initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,12 +132,23 @@
       <option name="presentableId" value="Default" />
       <updated>1720265440989</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1720290058521</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720290058521</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
