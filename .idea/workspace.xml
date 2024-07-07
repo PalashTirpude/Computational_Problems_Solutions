@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe5a0e-6569-4042-a2c6-d9a43ffbcde0" name="Changes" comment="Initial Commit" />
+    <list default="true" id="adfe5a0e-6569-4042-a2c6-d9a43ffbcde0" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/calender/CheckDayWeekendOrWeekDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/MathOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/MutipleOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/NumberCheckEvenOrOod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/NumberOfCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cps/number/ValidateMobileNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/calender/DayWeekendOrweekdayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/MatchOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/MobileNumberValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/MultipleOfNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/NumberCheckEvenOddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cps/test/numbertest/NumberOfCoinsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +47,13 @@
   "keyToString": {
     "Application.AlphabetCheckVowelTest.executor": "Run",
     "Application.ArithmeticOperatoresTester.executor": "Run",
+    "Application.DayWeekendOrweekdayTest.executor": "Run",
     "Application.GreatesNumber.executor": "Run",
+    "Application.MatchOperationTest.executor": "Run",
+    "Application.MobileNumberValidationTest.executor": "Run",
+    "Application.MultipleOfNumberTest.executor": "Run",
+    "Application.NumberCheckEvenOddTest.executor": "Run",
+    "Application.NumberOfCoinsTest.executor": "Run",
     "Application.NumberOfDigitsTest.executor": "Run",
     "Application.SwapTwoNumbersTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -50,13 +70,13 @@
       <recent name="com.cps.test.arithmaticoperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AlphabetCheckVowelTest">
-    <configuration name="AlphabetCheckVowelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cps.test.alphabettest.AlphabetCheckVowelTest" />
+  <component name="RunManager" selected="Application.DayWeekendOrweekdayTest">
+    <configuration name="DayWeekendOrweekdayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cps.test.calender.DayWeekendOrweekdayTest" />
       <module name="Computational_Problem_Solving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cps.test.alphabettest.*" />
+          <option name="PATTERN" value="com.cps.test.calender.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,15 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArithmeticOperatoresTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cps.test.arithmaticoperators.ArithmeticOperatoresTester" />
-      <module name="Computational_Problem_Solving" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreatesNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.GreatesNumber" />
+    <configuration name="MatchOperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.MatchOperationTest" />
       <module name="Computational_Problem_Solving" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfDigitsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.NumberOfDigitsTest" />
+    <configuration name="MobileNumberValidationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.MobileNumberValidationTest" />
       <module name="Computational_Problem_Solving" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapTwoNumbersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cps.test.swaptwonumbers.SwapTwoNumbersTest" />
+    <configuration name="NumberCheckEvenOddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.NumberCheckEvenOddTest" />
       <module name="Computational_Problem_Solving" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cps.test.swaptwonumbers.*" />
+          <option name="PATTERN" value="com.cps.test.numbertest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfCoinsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cps.test.numbertest.NumberOfCoinsTest" />
+      <module name="Computational_Problem_Solving" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cps.test.numbertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlphabetCheckVowelTest" />
-        <item itemvalue="Application.GreatesNumber" />
-        <item itemvalue="Application.NumberOfDigitsTest" />
-        <item itemvalue="Application.SwapTwoNumbersTest" />
-        <item itemvalue="Application.ArithmeticOperatoresTester" />
+        <item itemvalue="Application.DayWeekendOrweekdayTest" />
+        <item itemvalue="Application.NumberCheckEvenOddTest" />
+        <item itemvalue="Application.NumberOfCoinsTest" />
+        <item itemvalue="Application.MatchOperationTest" />
+        <item itemvalue="Application.MobileNumberValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720290058521</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1720290148334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720290148334</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
